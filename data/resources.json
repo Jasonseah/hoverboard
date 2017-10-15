@@ -63,13 +63,13 @@
       "title": "For visitors",
       "links": [
         {
-          "text": "Team",
-          "url": "/team/",
+          "text": "Schedule",
+          "url": "/schedule/day1/",
           "newTab": false
         },
         {
-          "text": "Code of Conduct",
-          "url": "/cod/",
+          "text": "Speakers",
+          "url": "/speakers/",
           "newTab": false
         },
         {
