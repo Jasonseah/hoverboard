@@ -1,25 +1,24 @@
 {
   "url": "https://hoverboard.firebaseapp.com/",
-  "startDate": "2016-09-09T09:00:00+03:00",
-  "endDate": "2016-09-10T19:00:00+03:00",
+  "startDate": "2017-11-18T09:00:00+08:00",
+  "endDate": "2017-11-18T19:00:00+08:00",
   "analytics": {
     "prod": "UA-43643469-8",
     "dev": "UA-43643469-9"
   },
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv"
+    "name": "GDG GeorgeTown & gBG GeorgeTown"
   },
   "webapp": {
-    "shortName": "DevFest",
+    "shortName": "DevFest & GDay",
     "themeColor": "#F57C00",
     "backgroundColor": "#F57C00"
   },
   "firebase": {
-    "name": "hoverboard-master",
-    "domain": "hoverboard-master.firebaseapp.com",
-    "database": "https://hoverboard-master.firebaseio.com",
-    "api": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
+    "name": "Devfest 2017",
+    "domain": "devfest-2017-4a2b7.firebaseapp.com",
+    "database": "devfest-2017-4a2b7.firebaseio.com",
+    "api": "AIzaSyBu12kX-QJkTjtgLAlFmyjs28lzQ5lI6rQ",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"
@@ -32,20 +31,16 @@
     "locale": "en-US",
     "blog": {"month": "short", "day": "numeric", "year": "numeric"}
   },
-  "hashtag": "dfua",
-  "disqusShortName": "hoverboard-gdg-x",
-  "tweetsSource": "/data/tweets.json",
+  "hashtag": "devfest&GDay2017",
+  "disqusShortName": "devfest-gday-2017",
+  "tweetsSource": "",
   "partnershipProposition": "http://bit.ly/df16-sponsor",
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "videosSessionsUrl": "https://www.youtube.com/watch?v=keWI-LxNFRk",
   "enableSessionsRating": true,
   "navigation": [
     {
       "route": "home",
       "permalink": "/"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog/"
     },
     {
       "route": "schedule",
@@ -54,62 +49,45 @@
     {
       "route": "speakers",
       "permalink": "/speakers/"
-    },
-    {
-      "route": "team",
-      "permalink": "/team/"
     }
   ],
   "social": [
     {
-      "name": "twitter",
-      "nickname": "GDGLviv",
-      "url": "https://twitter.com/gdglviv"
-    },
-    {
       "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/102444623953913144164"
+      "nickname": "Gdggeorgetownmy",
+      "url": "https://plus.google.com/+Gdggeorgetownmy"
     },
     {
       "name": "facebook",
-      "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
-    },
-    {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
+      "nickname": "GDG GeorgeTown",
+      "url": "https://www.facebook.com/gdggeorgetown/"
     }
   ],
   "location": {
     "apiKey": "",
-    "name": "Pivdennyi Expo Center",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
-    "link": "https://www.facebook.com/expopivdennij",
+    "name": "Wisma Yeap Chor Ee",
+    "address": "No. 16 &, Pengkalan Weld & Gat Lebuh China, Georgetown, 10300 George Town, Penang",
+    "link": "https://www.google.com.my/maps/place/Wisma+Yeap+Chor+Ee/@5.415101,100.3402526,17z/data=!3m1!4b1!4m5!3m4!1s0x304ac38c20aa2db1:0xdca26c3bba21297c!8m2!3d5.415101!4d100.3424413",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 5.415261,
+      "longitude": 100.342313,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+      "latitude": 5.4153589,
+      "longitude": 100.343062
     },
     "images": [
-      "/images/backgrounds/location_1.jpg",
-      "/images/backgrounds/location_2.jpg",
-      "/images/backgrounds/location_3.jpg"
+      "/images/backgrounds/wisma1.JPG",
+      "/images/backgrounds/wisma2.jpg",
+      "/images/backgrounds/wisma3.png"
     ]
   },
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "albumUrl": "",
     "photos": {
-      "big": "/images/backgrounds/2015_1.jpg",
-      "small": [
-        "/images/backgrounds/2015_2.jpg",
-        "/images/backgrounds/2015_3.jpg"
-      ]
+      "big": "",
+      "small": []
     }
   },
   "pages": {
@@ -121,8 +99,8 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {
-          "title": "GDG DevFest Ukraine 2016",
-          "youtubeId": "TdpbgRgz6eE",
+          "title": "GDG DevFest & GDay Georgetown 2016",
+          "youtubeId": "UCk0e6vzC40lq24k7UyiQhNg",
           "text": "See how it was in 2016"
         },
         "hideLogo": true,

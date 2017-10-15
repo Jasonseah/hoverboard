@@ -36,6 +36,10 @@
         padding-left: 0;
       }
 
+      .schedule-container{
+        max-width: inherit;
+      }
+
       schedule-day {
         margin-bottom: 64px;
       }
@@ -62,7 +66,7 @@
       persisted-data="{{app.user.sessions}}">
     </app-indexeddb-mirror>
 
-    <div class="container" phone$="{{app.isPhoneSize}}">
+    <div class="container schedule-container" phone$="{{app.isPhoneSize}}">
       <schedule-subnav
         app="{{app}}"
         schedule="[[schedule]]"
