@@ -74,6 +74,11 @@
         min-height: 150px;
       }
 
+      sup{
+        font-size: 10px;
+        text-transform: lowercase;
+      }
+
       .dates {
         font-size: 18px;
         text-transform: uppercase;
@@ -132,8 +137,8 @@
                           src="/images/devfest-gday-large-roboto.svg"
                           sizing="cover"
                           alt="GDG DevFest + GDay GeorgeTown 2017"></iron-image>
-              <h3 class="dates">{$ dates $}</h3>
-              <h2 class="motto">{$ motto $}</h2>
+              <h3 class="dates">November 18<sup>th</sup>, 2017</h3>
+              <h2 class="motto">GDG & GBG ! Awesomeness reach 2<sup>nd</sup> year</h2>
               <div class="action-buttons">
                 <paper-button class="primary" on-tap="_scrollToTickets" raised>{$ buyTicket $}</paper-button>
               </div>
