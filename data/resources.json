@@ -2,7 +2,7 @@
   "title": "GDG DevFest + GDay Season 2017",
   "description": "The biggest Google tech & businesses conference in Penang GeorgeTown carefully crafted for you by GDG & GBG community! All about Android, Web, business successful stories and Cloud from the world experts",
   "keywords": "event, gdg, gbg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev, machinelearning, api.ai, uiux, startups",
-  "dates": "November 18th, 2017",
+  "dates": "November 18 <sup>th</sup>, 2017",
   "locationAddressShort": "Penang, Malaysia",
   "motto": "GDG & GBG ! Awesomeness reach 2nd year",
   "playIcon": "See how it was in 2016",
@@ -119,11 +119,11 @@
       "caption": "Day"
     },
     {
-      "counter": 30,
+      "counter": 25,
       "caption": "Sessions"
     },
     {
-      "counter": 7,
+      "counter": 6,
       "caption": "Tracks"
     }
   ],
