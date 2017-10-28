@@ -81,7 +81,6 @@
         margin-right: 5px;
         content: "/";
       }
-
     </style>
 
     <firebase-document
@@ -102,18 +101,18 @@
       <paper-toolbar class="tall">
         <paper-icon-button class="back-button" dialog-dismiss icon="arrow-back"></paper-icon-button>
         <div class="middle fallback-image-wrapper">
-          <iron-image class="fallback-image" src="/images/logo-white.svg"
-                      alt="{$ title $}"></iron-image>
+          <!-- src="/images/logo-white.svg" alt="{$ title $}" -->
+          <iron-image class="fallback-image"></iron-image>
         </div>
       </paper-toolbar>
       <div class="content">
-        <paper-fab
-          class$="float-button header-action [[fabIcon]]"
-          icon="[[fabIcon]]"
-          session-id$="[[session.id]]"
-          on-tap="toggleMyScheduleSession"
-          disabled$="[[!online]]"
-        ></paper-fab>
+        <!--<paper-fab-->
+          <!--class$="float-button header-action [[fabIcon]]"-->
+          <!--icon="[[fabIcon]]"-->
+          <!--session-id$="[[session.id]]"-->
+          <!--on-tap="toggleMyScheduleSession"-->
+          <!--disabled$="[[!online]]"-->
+        <!--&gt;</paper-fab>-->
 
         <div class="metadata-wrapper">
           <div class="main-info">
