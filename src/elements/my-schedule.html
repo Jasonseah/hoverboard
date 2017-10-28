@@ -85,11 +85,11 @@
             </div>
 
             <div
-              class="sessions-wrapper"
-              layout
-              vertical$="{{app.isPhoneSize}}"
-              horizontal$="{{!app.isPhoneSize}}"
-              flex$="{{!app.isPhoneSize}}"
+                    class="sessions-wrapper"
+                    layout
+                    vertical$="{{app.isPhoneSize}}"
+                    horizontal$="{{!app.isPhoneSize}}"
+                    flex$="{{!app.isPhoneSize}}"
             >
               <template is="dom-repeat" items="{{timeslot.sessions}}" as="session">
                 <div class="session" layout vertical flex$="{{!app.isPhoneSize}}">
@@ -97,9 +97,9 @@
                             filter="{{_filterSession(app.user.sessions)}}">
 
                     <session-element
-                      app="{{app}}"
-                      session="[[subSession]]"
-                      layout flex-auto
+                            app="{{app}}"
+                            session="[[subSession]]"
+                            layout flex-auto
                     ></session-element>
 
                   </template>
@@ -111,18 +111,18 @@
         </template>
       </template>
 
-      <div layout horizontal center-justified>
-        <a class="browse-more" href$="/schedule/day[[_addToValue(index, 1)]]" layout horizontal center>
-          <iron-icon icon="calendar-plus"></iron-icon>
-          <span>{$ browseMore $}</span>
-        </a>
-      </div>
+      <!--<div layout horizontal center-justified>-->
+      <!--<a class="browse-more" href$="/schedule/day[[_addToValue(index, 1)]]" layout horizontal center>-->
+      <!--<iron-icon icon="calendar-plus"></iron-icon>-->
+      <!--<span>{$ browseMore $}</span>-->
+      <!--</a>-->
+      <!--</div>-->
     </template>
 
   </template>
 
   <script>
-    (function () {
+    (function (){
       'use strict';
 
       Polymer({
@@ -154,27 +154,27 @@
           }
         },
 
-        _removeFromMySchedule: function (e) {
+        _removeFromMySchedule: function (e){
           e.stopPropagation();
           e.preventDefault();
           var id = e.target.sessionId;
 
-          if (this.app.user.sessions && this.app.user.sessions[id]) {
+          if ( this.app.user.sessions && this.app.user.sessions[id] ) {
             this.set('app.user.sessions.' + id, null);
           }
 
           HOVERBOARD.Elements.Template.$.toast.showMessage('{$ removedFromSchedule $}');
         },
 
-        _splitText: function (text, divider, index) {
+        _splitText: function (text, divider, index){
           return text.split(divider)[index];
         },
 
-        _filterTimeslots: function (savedSessionsIds) {
-          return function (timeslot) {
+        _filterTimeslots: function (savedSessionsIds){
+          return function (timeslot){
             var result = false;
-            timeslot.sessions.map(function (session) {
-              if (savedSessionsIds && savedSessionsIds[session[0].id]) {
+            timeslot.sessions.map(function (session){
+              if ( savedSessionsIds && savedSessionsIds[session[0].id] ) {
                 result = true;
               }
             });
@@ -182,10 +182,10 @@
           }
         },
 
-        _filterSession: function (savedSessionsIds) {
+        _filterSession: function (savedSessionsIds){
           var filters = this.filters || [];
 
-          return function (session) {
+          return function (session){
             return (savedSessionsIds && savedSessionsIds[session.id])
               || (filters.length && filters.indexOf(session.mainTag) > -1);
           };
