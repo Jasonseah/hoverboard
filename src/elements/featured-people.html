@@ -41,6 +41,7 @@
         @apply(--img-circle);
         height: 70px;
         width: 70px;
+        margin-bottom: 10px;
       }
 
       .name {
@@ -99,11 +100,11 @@
               src="[[person.photoUrl]]"
               sizing="cover"
             ></iron-image>
-            <iron-image
-              class="company-logo"
-              src="[[person.companyLogo]]"
-              sizing="contain"
-            ></iron-image>
+            <!--<iron-image-->
+              <!--class="company-logo"-->
+              <!--src="[[person.companyLogo]]"-->
+              <!--sizing="contain"-->
+            <!--&gt;</iron-image>-->
             <h4 class="name">[[person.name]]</h4>
             <span class="company">[[person.country]]</span>
           </a>
